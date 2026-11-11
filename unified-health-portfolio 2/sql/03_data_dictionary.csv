@@ -1,0 +1,26 @@
+Table,Field,Meaning,Notes
+app_users,user_id,Internal user identifier,Auto increment surrogate key
+app_users,account_key,Opaque account UUID,Do not use email as database primary key
+app_users,country_code,Optional ISO country code,Collect only if product purpose requires it
+app_users,preferred_language,Optional language preference,Use BCP-47 style language tag where possible
+app_users,timezone_name,IANA timezone,Needed for local-day summaries; preserve UTC timestamps
+providers,provider_code,Stable provider identifier,Examples APPLE_HEALTH or OURA
+providers,integration_method,How data reaches platform,HealthKit Health Connect vendor API or manual import
+providers,integration_status,Delivery status,Planned is not the same as integrated/approved
+ device_models,model_name,Name of a wearable or aggregator,Capability varies by model/firmware/platform
+user_devices,device_status,Connection state,Disconnected does not mean user data should be deleted
+provider_connections,granted_scopes,User-authorized API permissions,JSON list; request only necessary scopes
+provider_connections,secret_reference,Secret manager key reference,Do not store plaintext access tokens here
+metric_types,metric_code,Normalized metric identifier,Keep vendor-specific metric codes in source mapping
+metric_types,canonical_unit,Target unit for normalized value,Retain original unit as well
+health_observations,provider_id,Source platform for the observation,Required for provenance and conflict handling
+health_observations,observed_start_utc,Observation start time in UTC,Convert from provider timestamp carefully
+health_observations,value_numeric,Original numeric value,May be NULL for text records
+health_observations,canonical_value,Normalized numeric value,Do not normalize incompatible scores into a false common scale
+health_observations,data_quality_status,Quality/duplicate review flag,Do not automatically delete conflicts
+activity_sessions,activity_type,Workout/activity category,Provider labels may need a source mapping table later
+sleep_sessions,sleep_score,Vendor-defined sleep score,Keep source attribution; scores may not be comparable
+consent_records,data_category,Specific category user authorized,Granular and independently revocable
+consent_records,consent_notice_version,Version of consent notice,Supports auditability
+sync_runs,records_rejected,Number of rejected records,Monitor data completeness and integration health
+health_insights,rule_or_model_version,Version used to create insight,Enables explainability and audit

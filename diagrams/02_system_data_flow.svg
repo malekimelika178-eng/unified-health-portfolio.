@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="850" viewBox="0 0 1680 850">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#748293"/></marker><marker id="arrowteal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#168579"/></marker><marker id="arrowred" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C75B55"/></marker><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#12263A" flood-opacity="0.12"/></filter></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<path d="M 290 280.0 L 320.0 280.0 L 320.0 280.0 L 350 280.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 600 280.0 L 630.0 280.0 L 630.0 280.0 L 660 280.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 910 280.0 L 940.0 280.0 L 940.0 280.0 L 970 280.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 1230 280.0 L 1260.0 280.0 L 1260.0 280.0 L 1290 280.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 1290 280.0 L 1260.0 280.0 L 1260.0 560.0 L 1230 560.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="1185.0" y="397.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1260.0" y="413.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">Approved observations</text>
+<path d="M 1230 560.0 L 1260.0 560.0 L 1260.0 560.0 L 1290 560.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 610 522.5 L 635.0 522.5 L 635.0 280.0 L 660 280.0" fill="none" stroke="#C75B55" stroke-width="2.5" marker-end="url(#arrowred)" opacity="0.95"/>
+<rect x="560.0" y="378.25" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="635.0" y="394.25" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#C75B55">Unsupported / incomplete source</text>
+<text x="40" y="57.4" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#16324F">System Data Flow | Wearable Sources to Personalized Insights</text>
+<text x="42" y="94.6" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#566575">Conceptual architecture for an MVP. Device access depends on platform permissions, partner APIs, supported metrics, and user consent.</text>
+<rect x="40" y="190" width="250" height="180" rx="12" fill="#DCEBFA" stroke="#3B82B8" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="165.0" y="234.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">WEARABLE SOURCES</text>
+<text x="165.0" y="254.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Apple Watch / Apple Health</text>
+<text x="165.0" y="274.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Wear OS / Health Connect</text>
+<text x="165.0" y="294.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Samsung • Garmin • Oura •</text>
+<text x="165.0" y="314.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">WHOOP</text>
+<text x="165.0" y="334.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Other approved integrations</text>
+<rect x="350" y="190" width="250" height="180" rx="12" fill="#EEE6FA" stroke="#8162B3" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="475.0" y="244.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">CONSENT &amp; ACCESS GATE</text>
+<text x="475.0" y="264.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">User chooses source</text>
+<text x="475.0" y="284.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Explain data scopes</text>
+<text x="475.0" y="304.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Platform permission / OAuth</text>
+<text x="475.0" y="324.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Record grant and revocation</text>
+<rect x="660" y="190" width="250" height="180" rx="12" fill="#D9F2EE" stroke="#168579" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="785.0" y="234.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">CONNECTOR ADAPTERS</text>
+<text x="785.0" y="254.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Fetch only authorized data</text>
+<text x="785.0" y="274.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Handle provider-specific</text>
+<text x="785.0" y="294.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">formats</text>
+<text x="785.0" y="314.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Track sync runs and errors</text>
+<text x="785.0" y="334.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Retain source record IDs</text>
+<rect x="970" y="190" width="260" height="180" rx="12" fill="#FFF1CC" stroke="#C18B21" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1100.0" y="234.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">NORMALIZE &amp; VALIDATE</text>
+<text x="1100.0" y="254.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Map to canonical metric types</text>
+<text x="1100.0" y="274.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Normalize units and timestamps</text>
+<text x="1100.0" y="294.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">De-duplicate records</text>
+<text x="1100.0" y="314.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Flag gaps / stale / low-quality</text>
+<text x="1100.0" y="334.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">data</text>
+<rect x="1290" y="190" width="300" height="180" rx="12" fill="#E0F2E5" stroke="#4E9563" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1440.0" y="244.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">SECURE DATA LAYER</text>
+<text x="1440.0" y="264.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">User &amp; consent records</text>
+<text x="1440.0" y="284.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Device connections and sync logs</text>
+<text x="1440.0" y="304.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Health observations + metric catalog</text>
+<text x="1440.0" y="324.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Goals, insights, recommendations</text>
+<rect x="970" y="480" width="260" height="160" rx="12" fill="#EEE6FA" stroke="#8162B3" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1100.0" y="514.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">INSIGHT ENGINE</text>
+<text x="1100.0" y="534.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Personal baselines and trends</text>
+<text x="1100.0" y="554.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Cross-metric context (when</text>
+<text x="1100.0" y="574.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">valid)</text>
+<text x="1100.0" y="594.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Rules and explainable summaries</text>
+<text x="1100.0" y="614.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">No diagnostic conclusions</text>
+<rect x="1290" y="480" width="300" height="160" rx="12" fill="#DCEBFA" stroke="#3B82B8" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1440.0" y="524.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">USER EXPERIENCE</text>
+<text x="1440.0" y="544.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Daily / weekly health overview</text>
+<text x="1440.0" y="564.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Source and metric explanations</text>
+<text x="1440.0" y="584.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Optional goals and reminders</text>
+<text x="1440.0" y="604.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">User feedback and controls</text>
+<rect x="40" y="720" width="1550" height="95" rx="10" fill="#F1F4F7" stroke="#748293" stroke-width="2" filter="url(#shadow)"/>
+<text x="815.0" y="752.0" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#172B3A">DATA GOVERNANCE CONTROLS (APPLY END-TO-END)</text>
+<text x="815.0" y="771.0" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">Least-privilege access • encryption in transit and at rest • audit logs • retention rules</text>
+<text x="815.0" y="790.0" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">• user access/export/deletion • consent revocation • source and calculation transparency</text>
+<rect x="40" y="460" width="570" height="125" rx="10" fill="#FDE5E3" stroke="#C75B55" stroke-width="2" filter="url(#shadow)"/>
+<text x="325.0" y="497.5" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#172B3A">IMPORTANT LIMITATION</text>
+<text x="325.0" y="516.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">Not every device exposes every metric. A missing</text>
+<text x="325.0" y="535.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">measurement must be shown as unavailable, not estimated</text>
+<text x="325.0" y="554.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">or silently substituted.</text>
+</svg>

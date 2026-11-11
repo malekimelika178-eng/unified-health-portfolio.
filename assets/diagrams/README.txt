@@ -1,0 +1,1 @@
+PNG and SVG files are previews. Editable .drawio sources can be opened at https://app.diagrams.net/ and may be imported into Lucidchart if supported by your plan. These are conceptual portfolio diagrams, not production architecture validation.

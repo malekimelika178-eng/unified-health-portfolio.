@@ -1,0 +1,17 @@
+﻿Issue Type,Summary,Description,Priority,Epic Name,Labels
+Epic,Platform foundation and identity,"Set up cross-platform product foundations, user identity and supported-client strategy.",High,Platform foundation,unified-health;epic
+Story,Review integration options by operating system,"As a product team, we need a documented integration matrix for iOS HealthKit, Android Health Connect and conditional vendor APIs.",High,Platform foundation,integration;research
+Story,Define device and provider catalog,"As an analyst, I need a provider and device catalog so supported devices and limitations are explicit.",High,Platform foundation,data-model
+Epic,Consent and data governance,Provide user control and responsible handling of health information.,Highest,Consent and governance,privacy;epic
+Story,Capture granular health-data consent,"As a user, I want to grant permissions by data category so I control what the app can access.",Highest,Consent and governance,consent;security
+Story,Support connection revocation,"As a user, I want to disconnect a provider and revoke permissions.",High,Consent and governance,consent
+Epic,Data ingestion and quality,"Ingest, validate, normalize and preserve source metadata for supported measurements.",High,Data ingestion and quality,data;epic
+Story,"Preserve source, original unit and timestamp","As an analyst, I need every observation to retain provenance so values remain traceable.",Highest,Data ingestion and quality,sql;data-quality
+Story,Flag missing and conflicting readings,"As a user, I want to see when data is unavailable, stale or conflicting.",High,Data ingestion and quality,data-quality
+Epic,Personal health insights,Help users interpret personal trends without presenting diagnosis.,Medium,Personal health insights,insights;epic
+Story,Display supported personal trends,"As a user, I want to see trends for the measurements I authorize.",Medium,Personal health insights,dashboard
+Story,Explain insight evidence and confidence,"As a user, I want to know which source metrics and time period support an insight.",High,Personal health insights,transparency
+Epic,Analytics and portfolio demonstration,Build an auditable analysis and dashboard from public historical wearable data.,Medium,Analytics and portfolio,analytics;epic
+Story,Profile public Fitbit dataset and document limits,"As an analyst, I need to document provenance, sample size, period, missingness and data quality.",High,Analytics and portfolio,dataset;research
+Story,Create SQL staging and analysis queries,"As an analyst, I want reproducible SQL queries for steps, sleep and activity trends.",Medium,Analytics and portfolio,sql
+Story,Build Tableau dashboard from validated outputs,"As a stakeholder, I want an interactive view of descriptive findings and dataset limitations.",Medium,Analytics and portfolio,tableau

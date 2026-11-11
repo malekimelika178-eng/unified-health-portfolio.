@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-10T23:59:00.000Z" agent="OpenAI" version="25.0.3" type="device">
+  <diagram id="01CustomerJourney" name="01 Customer Journey">
+    <mxGraphModel dx="1600" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="je1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="j1" target="j2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="j2" target="j3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="j3" target="j4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="j4" target="j5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je5" value="No / partial" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="j4" target="j8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="j5" target="j6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="j6" target="j7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Customer Journey | Universal&lt;br&gt;Health Companion" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#16324F;fontSize=25;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1500" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="From first discovery to&lt;br&gt;ongoing, user-controlled&lt;br&gt;health insights.&lt;br&gt;Illustrative target-state&lt;br&gt;journey; not a claim about&lt;br&gt;current platform&lt;br&gt;capabilities." style="text;html=1;strokeColor=none;fillColor=none;fontColor=#566575;fontSize=13;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="52" y="78" width="1500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1" value="1  DISCOVER&lt;br&gt;Learn what the app does&lt;br&gt;Check device &amp;amp; region&lt;br&gt;support&lt;br&gt;Review privacy approach" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBFA;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j2" value="2  SET UP&lt;br&gt;Create account&lt;br&gt;Choose language &amp;amp; time zone&lt;br&gt;Set goals (optional)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9F2EE;strokeColor=#168579;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j3" value="3  CONNECT&lt;br&gt;Select wearable ecosystem&lt;br&gt;Review requested data scopes&lt;br&gt;Authorize platform access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE6FA;strokeColor=#8162B3;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j4" value="Permission granted&lt;br&gt;and source supports&lt;br&gt;requested metrics?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF1CC;strokeColor=#C18B21;fontColor=#172B3A;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="245" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="j5" value="4  SYNC &amp;amp; REVIEW&lt;br&gt;Retrieve permitted records&lt;br&gt;Show sync status and gaps&lt;br&gt;Preserve source attribution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1CC;strokeColor=#C18B21;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="230" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j6" value="5  UNDERSTAND&lt;br&gt;View daily and weekly trends&lt;br&gt;Compare with personal&lt;br&gt;baseline&lt;br&gt;Read plain-language&lt;br&gt;explanations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2E5;strokeColor=#4E9563;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="230" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j7" value="6  TAKE ACTION &amp;amp; CONTROL&lt;br&gt;Choose whether to follow&lt;br&gt;suggestions&lt;br&gt;Adjust goals and&lt;br&gt;notifications&lt;br&gt;Manage sources, export or&lt;br&gt;revoke access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBFA;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="500" width="210" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="j9" value="TRUST &amp;amp; SAFETY THROUGHOUT&lt;br&gt;Clear consent • minimum necessary data • secure handling •&lt;br&gt;transparent metric definitions • no diagnosis claims" style="shape=note;whiteSpace=wrap;html=1;fillColor=#F1F4F7;strokeColor=#748293;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=middle;spacing=10;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="1450" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="j8" value="IF BLOCKED OR PARTIAL&lt;br&gt;Explain unsupported or missing metrics.&lt;br&gt;Offer permission review, retry, or another&lt;br&gt;supported source.&lt;br&gt;Show supported metrics without implying&lt;br&gt;the dataset is complete." style="shape=note;whiteSpace=wrap;html=1;fillColor=#FDE5E3;strokeColor=#C75B55;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=middle;spacing=10;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="690" y="475" width="400" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

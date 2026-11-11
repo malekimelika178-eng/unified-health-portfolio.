@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="1020" viewBox="0 0 1780 1020">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#748293"/></marker><marker id="arrowteal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#168579"/></marker><marker id="arrowred" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C75B55"/></marker><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#12263A" flood-opacity="0.12"/></filter></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<path d="M 300 237.5 L 340.0 237.5 L 340.0 447.5 L 380 447.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="265.0" y="319.5" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="340.0" y="335.5" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 505.0 275 L 505.0 315.0 L 505.0 315.0 L 505.0 355" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="430.0" y="292.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="505.0" y="308.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 300 237.5 L 510.0 237.5 L 510.0 220.0 L 720 220.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="435.0" y="205.75" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="510.0" y="221.75" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 630 200.0 L 675.0 200.0 L 675.0 220.0 L 720 220.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="600.0" y="187.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="675.0" y="203.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 1000 220.0 L 1050.0 220.0 L 1050.0 210.0 L 1100 210.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="975.0" y="192.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1050.0" y="208.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 300 237.5 L 700.0 237.5 L 700.0 512.5 L 1100 512.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="625.0" y="352.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="700.0" y="368.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 1000 220.0 L 1050.0 220.0 L 1050.0 512.5 L 1100 512.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="975.0" y="343.25" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1050.0" y="359.25" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 1230.0 295 L 1230.0 345.0 L 1260.0 345.0 L 1260.0 395" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="1170.0" y="322.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1245.0" y="338.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 1000 527.5 L 1050.0 527.5 L 1050.0 512.5 L 1100 512.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="975.0" y="497.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1050.0" y="513.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 175.0 330 L 175.0 477.5 L 175.0 477.5 L 175.0 625" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="100.0" y="454.5" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="175.0" y="470.5" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 300 237.5 L 500.0 237.5 L 500.0 847.5 L 700 847.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="425.0" y="519.5" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="500.0" y="535.5" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 980 847.5 L 1040.0 847.5 L 1040.0 832.5 L 1100 832.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="965.0" y="817.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1040.0" y="833.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 1260.0 630 L 1260.0 692.5 L 1230.0 692.5 L 1230.0 755" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="1170.0" y="669.5" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1245.0" y="685.5" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 300 237.5 L 890.0 237.5 L 890.0 832.5 L 1480 832.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="815.0" y="512.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="890.0" y="528.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<path d="M 980 847.5 L 1230.0 847.5 L 1230.0 832.5 L 1480 832.5" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="1155.0" y="817.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1230.0" y="833.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">1 : many</text>
+<text x="45" y="48.8" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#16324F">Conceptual ERD | Wearable Health Companion</text>
+<text x="48" y="80.16" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#566575">Logical data model for connected devices, permission records, normalized measurements, insights, and user goals. PK = primary key; FK = foreign key.</text>
+<rect x="50" y="145" width="250" height="185" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M50 179 H300" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="62" y="168" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">User</text>
+<text x="62" y="199" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK UserID</text>
+<text x="62" y="217" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">CountryCode</text>
+<text x="62" y="235" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Locale</text>
+<text x="62" y="253" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">TimeZone</text>
+<text x="62" y="271" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">CreatedAt</text>
+<rect x="380" y="125" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M380 159 H630" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="392" y="148" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">Provider</text>
+<text x="392" y="179" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK ProviderID</text>
+<text x="392" y="197" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">ProviderName</text>
+<text x="392" y="215" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">IntegrationType</text>
+<text x="392" y="233" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Platform</text>
+<rect x="380" y="355" width="250" height="185" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M380 389 H630" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="392" y="378" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">ConsentGrant</text>
+<text x="392" y="409" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK ConsentID</text>
+<text x="392" y="427" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK UserID</text>
+<text x="392" y="445" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK ProviderID</text>
+<text x="392" y="463" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Scope</text>
+<text x="392" y="481" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Status</text>
+<text x="392" y="499" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">GrantedAt / RevokedAt</text>
+<rect x="720" y="125" width="280" height="190" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M720 159 H1000" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="732" y="148" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">DeviceConnection</text>
+<text x="732" y="179" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK ConnectionID</text>
+<text x="732" y="197" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK UserID</text>
+<text x="732" y="215" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK ProviderID</text>
+<text x="732" y="233" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">DeviceModel</text>
+<text x="732" y="251" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">ConnectionStatus</text>
+<text x="732" y="269" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">ConnectedAt / LastSyncAt</text>
+<rect x="1100" y="125" width="260" height="170" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M1100 159 H1360" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="1112" y="148" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">SyncRun</text>
+<text x="1112" y="179" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK SyncRunID</text>
+<text x="1112" y="197" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK ConnectionID</text>
+<text x="1112" y="215" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">StartedAt / EndedAt</text>
+<text x="1112" y="233" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Status</text>
+<text x="1112" y="251" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">RecordsReceived</text>
+<text x="1112" y="269" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">ErrorCode</text>
+<rect x="720" y="445" width="280" height="165" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M720 479 H1000" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="732" y="468" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">MetricType</text>
+<text x="732" y="499" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK MetricTypeID</text>
+<text x="732" y="517" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">MetricName</text>
+<text x="732" y="535" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Category</text>
+<text x="732" y="553" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">CanonicalUnit</text>
+<text x="732" y="571" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Definition</text>
+<rect x="1100" y="395" width="320" height="235" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M1100 429 H1420" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="1112" y="418" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">HealthObservation</text>
+<text x="1112" y="449" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK ObservationID</text>
+<text x="1112" y="467" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK UserID</text>
+<text x="1112" y="485" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK ConnectionID</text>
+<text x="1112" y="503" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK SyncRunID</text>
+<text x="1112" y="521" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK MetricTypeID</text>
+<text x="1112" y="539" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Value + OriginalUnit</text>
+<text x="1112" y="557" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">NormalizedValue + Unit</text>
+<text x="1112" y="575" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">StartAtUTC / EndAtUTC</text>
+<text x="1112" y="593" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">QualityStatus</text>
+<rect x="50" y="625" width="250" height="170" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M50 659 H300" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="62" y="648" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">UserGoal</text>
+<text x="62" y="679" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK GoalID</text>
+<text x="62" y="697" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK UserID</text>
+<text x="62" y="715" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">GoalType</text>
+<text x="62" y="733" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">TargetValue + Unit</text>
+<text x="62" y="751" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">StartDate / EndDate</text>
+<text x="62" y="769" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Status</text>
+<rect x="700" y="755" width="280" height="185" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M700 789 H980" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="712" y="778" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">DailyInsight</text>
+<text x="712" y="809" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK InsightID</text>
+<text x="712" y="827" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK UserID</text>
+<text x="712" y="845" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">InsightType</text>
+<text x="712" y="863" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Title + Explanation</text>
+<text x="712" y="881" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">WindowStart / WindowEnd</text>
+<text x="712" y="899" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">GeneratedAt</text>
+<text x="712" y="917" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">ConfidenceLabel</text>
+<rect x="1100" y="755" width="260" height="155" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M1100 789 H1360" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="1112" y="778" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">InsightEvidence</text>
+<text x="1112" y="809" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK, FK InsightID</text>
+<text x="1112" y="827" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK, FK ObservationID</text>
+<rect x="1480" y="745" width="250" height="175" rx="8" fill="#FFFFFF" stroke="#3B82B8" stroke-width="2" filter="url(#shadow)"/>
+<path d="M1480 779 H1730" stroke="#D9E2EC" stroke-width="1.5"/>
+<text x="1492" y="768" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16324F">Recommendation</text>
+<text x="1492" y="799" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">PK RecommendationID</text>
+<text x="1492" y="817" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK UserID</text>
+<text x="1492" y="835" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">FK InsightID</text>
+<text x="1492" y="853" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">RecommendationText</text>
+<text x="1492" y="871" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">CreatedAt</text>
+<text x="1492" y="889" font-family="Arial,sans-serif" font-size="12" fill="#172B3A">Status</text>
+</svg>

@@ -1,0 +1,1 @@
+These Excel workbooks are supporting working papers. Before publishing quantitative claims, validate every row against the listed primary source, record source/country/date, and remove any unsupported or stale numbers. Do not present draft research as verified final findings.

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-10T23:59:00.000Z" agent="OpenAI" version="25.0.3" type="device">
+  <diagram id="03ConceptualERD" name="03 Conceptual ERD">
+    <mxGraphModel dx="1780" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1780" pageHeight="1020" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r1" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_User" target="e_ConsentGrant">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_Provider" target="e_ConsentGrant">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_User" target="e_DeviceConnection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_Provider" target="e_DeviceConnection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_DeviceConnection" target="e_SyncRun">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_User" target="e_HealthObservation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_DeviceConnection" target="e_HealthObservation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r8" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_SyncRun" target="e_HealthObservation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_MetricType" target="e_HealthObservation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r10" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_User" target="e_UserGoal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r11" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_User" target="e_DailyInsight">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r12" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_DailyInsight" target="e_InsightEvidence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r13" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_HealthObservation" target="e_InsightEvidence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r14" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_User" target="e_Recommendation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r15" value="1 : many" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e_DailyInsight" target="e_Recommendation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Conceptual ERD | Wearable&lt;br&gt;Health Companion" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#16324F;fontSize=25;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="20" width="1640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Logical data model for&lt;br&gt;connected devices,&lt;br&gt;permission records,&lt;br&gt;normalized measurements,&lt;br&gt;insights, and user goals. PK&lt;br&gt;= primary key; FK = foreign&lt;br&gt;key." style="text;html=1;strokeColor=none;fillColor=none;fontColor=#566575;fontSize=13;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="48" y="60" width="1640" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="e_User" value="&lt;b&gt;User&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK UserID&lt;br&gt;CountryCode&lt;br&gt;Locale&lt;br&gt;TimeZone&lt;br&gt;CreatedAt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="145" width="250" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="e_Provider" value="&lt;b&gt;Provider&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK ProviderID&lt;br&gt;ProviderName&lt;br&gt;IntegrationType&lt;br&gt;Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="125" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ConsentGrant" value="&lt;b&gt;ConsentGrant&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK ConsentID&lt;br&gt;FK UserID&lt;br&gt;FK ProviderID&lt;br&gt;Scope&lt;br&gt;Status&lt;br&gt;GrantedAt / RevokedAt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="355" width="250" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DeviceConnection" value="&lt;b&gt;DeviceConnection&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK ConnectionID&lt;br&gt;FK UserID&lt;br&gt;FK ProviderID&lt;br&gt;DeviceModel&lt;br&gt;ConnectionStatus&lt;br&gt;ConnectedAt / LastSyncAt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="125" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e_SyncRun" value="&lt;b&gt;SyncRun&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK SyncRunID&lt;br&gt;FK ConnectionID&lt;br&gt;StartedAt / EndedAt&lt;br&gt;Status&lt;br&gt;RecordsReceived&lt;br&gt;ErrorCode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="125" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e_MetricType" value="&lt;b&gt;MetricType&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK MetricTypeID&lt;br&gt;MetricName&lt;br&gt;Category&lt;br&gt;CanonicalUnit&lt;br&gt;Definition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="445" width="280" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="e_HealthObservation" value="&lt;b&gt;HealthObservation&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK ObservationID&lt;br&gt;FK UserID&lt;br&gt;FK ConnectionID&lt;br&gt;FK SyncRunID&lt;br&gt;FK MetricTypeID&lt;br&gt;Value + OriginalUnit&lt;br&gt;NormalizedValue + Unit&lt;br&gt;StartAtUTC / EndAtUTC&lt;br&gt;QualityStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="395" width="320" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="e_UserGoal" value="&lt;b&gt;UserGoal&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK GoalID&lt;br&gt;FK UserID&lt;br&gt;GoalType&lt;br&gt;TargetValue + Unit&lt;br&gt;StartDate / EndDate&lt;br&gt;Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="625" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DailyInsight" value="&lt;b&gt;DailyInsight&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK InsightID&lt;br&gt;FK UserID&lt;br&gt;InsightType&lt;br&gt;Title + Explanation&lt;br&gt;WindowStart / WindowEnd&lt;br&gt;GeneratedAt&lt;br&gt;ConfidenceLabel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="755" width="280" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="e_InsightEvidence" value="&lt;b&gt;InsightEvidence&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK, FK InsightID&lt;br&gt;PK, FK ObservationID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="755" width="260" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e_Recommendation" value="&lt;b&gt;Recommendation&lt;/b&gt;&lt;br&gt;&lt;hr&gt;PK RecommendationID&lt;br&gt;FK UserID&lt;br&gt;FK InsightID&lt;br&gt;RecommendationText&lt;br&gt;CreatedAt&lt;br&gt;Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=top;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="745" width="250" height="175" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

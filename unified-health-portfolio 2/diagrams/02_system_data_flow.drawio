@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-10T23:59:00.000Z" agent="OpenAI" version="25.0.3" type="device">
+  <diagram id="02SystemDataFlow" name="02 System Data Flow">
+    <mxGraphModel dx="1680" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1680" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fe1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f1" target="f2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f2" target="f3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f3" target="f4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f4" target="f5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe5" value="Approved observations" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f5" target="f6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#748293;fontSize=12;fontColor=#566575;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f6" target="f7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe7" value="Unsupported / incomplete source" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#C75B55;fontSize=12;fontColor=#C75B55;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="f9" target="f3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="System Data Flow | Wearable&lt;br&gt;Sources to Personalized&lt;br&gt;Insights" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#16324F;fontSize=25;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1650" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Conceptual architecture for&lt;br&gt;an MVP. Device access&lt;br&gt;depends on platform&lt;br&gt;permissions, partner APIs,&lt;br&gt;supported metrics, and user&lt;br&gt;consent." style="text;html=1;strokeColor=none;fillColor=none;fontColor=#566575;fontSize=13;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="42" y="73" width="1650" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" value="WEARABLE SOURCES&lt;br&gt;Apple Watch / Apple Health&lt;br&gt;Wear OS / Health Connect&lt;br&gt;Samsung • Garmin • Oura •&lt;br&gt;WHOOP&lt;br&gt;Other approved integrations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBFA;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" value="CONSENT &amp;amp; ACCESS GATE&lt;br&gt;User chooses source&lt;br&gt;Explain data scopes&lt;br&gt;Platform permission / OAuth&lt;br&gt;Record grant and revocation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE6FA;strokeColor=#8162B3;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" value="CONNECTOR ADAPTERS&lt;br&gt;Fetch only authorized data&lt;br&gt;Handle provider-specific&lt;br&gt;formats&lt;br&gt;Track sync runs and errors&lt;br&gt;Retain source record IDs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9F2EE;strokeColor=#168579;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" value="NORMALIZE &amp;amp; VALIDATE&lt;br&gt;Map to canonical metric types&lt;br&gt;Normalize units and timestamps&lt;br&gt;De-duplicate records&lt;br&gt;Flag gaps / stale / low-quality&lt;br&gt;data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1CC;strokeColor=#C18B21;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="970" y="190" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" value="SECURE DATA LAYER&lt;br&gt;User &amp;amp; consent records&lt;br&gt;Device connections and sync logs&lt;br&gt;Health observations + metric&lt;br&gt;catalog&lt;br&gt;Goals, insights, recommendations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2E5;strokeColor=#4E9563;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="190" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" value="INSIGHT ENGINE&lt;br&gt;Personal baselines and trends&lt;br&gt;Cross-metric context (when&lt;br&gt;valid)&lt;br&gt;Rules and explainable summaries&lt;br&gt;No diagnostic conclusions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE6FA;strokeColor=#8162B3;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="970" y="480" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" value="USER EXPERIENCE&lt;br&gt;Daily / weekly health overview&lt;br&gt;Source and metric explanations&lt;br&gt;Optional goals and reminders&lt;br&gt;User feedback and controls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBFA;strokeColor=#3B82B8;fontColor=#172B3A;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="480" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" value="DATA GOVERNANCE CONTROLS (APPLY END-TO-END)&lt;br&gt;Least-privilege access • encryption in transit and at rest • audit logs • retention rules&lt;br&gt;• user access/export/deletion • consent revocation • source and calculation transparency" style="shape=note;whiteSpace=wrap;html=1;fillColor=#F1F4F7;strokeColor=#748293;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=middle;spacing=10;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="1550" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" value="IMPORTANT LIMITATION&lt;br&gt;Not every device exposes every metric. A missing&lt;br&gt;measurement must be shown as unavailable, not estimated&lt;br&gt;or silently substituted." style="shape=note;whiteSpace=wrap;html=1;fillColor=#FDE5E3;strokeColor=#C75B55;fontColor=#172B3A;fontSize=13;align=left;verticalAlign=middle;spacing=10;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="570" height="125" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

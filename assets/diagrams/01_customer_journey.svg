@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#748293"/></marker><marker id="arrowteal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#168579"/></marker><marker id="arrowred" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C75B55"/></marker><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#12263A" flood-opacity="0.12"/></filter></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<path d="M 250 305.0 L 275.0 305.0 L 275.0 305.0 L 300 305.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 500 305.0 L 525.0 305.0 L 525.0 305.0 L 550 305.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 750 305.0 L 775.0 305.0 L 775.0 305.0 L 800 305.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 980 305.0 L 1010.0 305.0 L 1010.0 305.0 L 1040 305.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="935.0" y="282.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="1010.0" y="298.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">Yes</text>
+<path d="M 890.0 365 L 890.0 420.0 L 890.0 420.0 L 890.0 475" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<rect x="815.0" y="397.0" width="150" height="23" rx="7" fill="#FFFFFF" stroke="#E5EAF0"/>
+<text x="890.0" y="413.0" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#748293">No / partial</text>
+<path d="M 1240 305.0 L 1265.0 305.0 L 1265.0 305.0 L 1290 305.0" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<path d="M 1395.0 380 L 1395.0 440.0 L 1395.0 440.0 L 1395.0 500" fill="none" stroke="#748293" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.95"/>
+<text x="50" y="62.4" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#16324F">Customer Journey | Universal Health Companion</text>
+<text x="52" y="99.6" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#566575">From first discovery to ongoing, user-controlled health insights. Illustrative target-state journey; not a claim about current platform capabilities.</text>
+<rect x="50" y="230" width="200" height="150" rx="12" fill="#DCEBFA" stroke="#3B82B8" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="150.0" y="269.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">1  DISCOVER</text>
+<text x="150.0" y="289.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Learn what the app does</text>
+<text x="150.0" y="309.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Check device &amp; region</text>
+<text x="150.0" y="329.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">support</text>
+<text x="150.0" y="349.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Review privacy approach</text>
+<rect x="300" y="230" width="200" height="150" rx="12" fill="#D9F2EE" stroke="#168579" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="400.0" y="269.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">2  SET UP</text>
+<text x="400.0" y="289.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Create account</text>
+<text x="400.0" y="309.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Choose language &amp; time</text>
+<text x="400.0" y="329.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">zone</text>
+<text x="400.0" y="349.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Set goals (optional)</text>
+<rect x="550" y="230" width="200" height="150" rx="12" fill="#EEE6FA" stroke="#8162B3" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="650.0" y="249.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">3  CONNECT</text>
+<text x="650.0" y="269.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Select wearable</text>
+<text x="650.0" y="289.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">ecosystem</text>
+<text x="650.0" y="309.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Review requested data</text>
+<text x="650.0" y="329.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">scopes</text>
+<text x="650.0" y="349.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Authorize platform</text>
+<text x="650.0" y="369.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">access</text>
+<polygon points="890.0,245 980,305.0 890.0,365 800,305.0" fill="#DCEBFA" stroke="#3B82B8" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="890.0" y="289.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">Permission granted</text>
+<text x="890.0" y="309.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">and source supports</text>
+<text x="890.0" y="329.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">requested metrics?</text>
+<rect x="1040" y="230" width="200" height="150" rx="12" fill="#FFF1CC" stroke="#C18B21" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1140.0" y="249.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">4  SYNC &amp; REVIEW</text>
+<text x="1140.0" y="269.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Retrieve permitted</text>
+<text x="1140.0" y="289.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">records</text>
+<text x="1140.0" y="309.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Show sync status and</text>
+<text x="1140.0" y="329.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">gaps</text>
+<text x="1140.0" y="349.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Preserve source</text>
+<text x="1140.0" y="369.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">attribution</text>
+<rect x="1290" y="230" width="210" height="150" rx="12" fill="#E0F2E5" stroke="#4E9563" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1395.0" y="249.0" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">5  UNDERSTAND</text>
+<text x="1395.0" y="269.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">View daily and weekly</text>
+<text x="1395.0" y="289.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">trends</text>
+<text x="1395.0" y="309.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Compare with personal</text>
+<text x="1395.0" y="329.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">baseline</text>
+<text x="1395.0" y="349.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Read plain-language</text>
+<text x="1395.0" y="369.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">explanations</text>
+<rect x="1290" y="500" width="210" height="145" rx="12" fill="#DCEBFA" stroke="#3B82B8" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1395.0" y="516.5" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#172B3A">6  TAKE ACTION &amp; CONTROL</text>
+<text x="1395.0" y="536.5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Choose whether to follow</text>
+<text x="1395.0" y="556.5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">suggestions</text>
+<text x="1395.0" y="576.5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Adjust goals and</text>
+<text x="1395.0" y="596.5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">notifications</text>
+<text x="1395.0" y="616.5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">Manage sources, export or</text>
+<text x="1395.0" y="636.5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172B3A">revoke access</text>
+<rect x="50" y="700" width="1450" height="75" rx="10" fill="#F1F4F7" stroke="#748293" stroke-width="2" filter="url(#shadow)"/>
+<text x="775.0" y="722.0" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#172B3A">TRUST &amp; SAFETY THROUGHOUT</text>
+<text x="775.0" y="741.0" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">Clear consent • minimum necessary data • secure handling •</text>
+<text x="775.0" y="760.0" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">transparent metric definitions • no diagnosis claims</text>
+<rect x="690" y="475" width="400" height="145" rx="10" fill="#FDE5E3" stroke="#C75B55" stroke-width="2" filter="url(#shadow)"/>
+<text x="890.0" y="503.5" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#172B3A">IF BLOCKED OR PARTIAL</text>
+<text x="890.0" y="522.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">Explain unsupported or missing metrics.</text>
+<text x="890.0" y="541.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">Offer permission review, retry, or another</text>
+<text x="890.0" y="560.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">supported source.</text>
+<text x="890.0" y="579.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">Show supported metrics without implying</text>
+<text x="890.0" y="598.5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#172B3A">the dataset is complete.</text>
+</svg>
